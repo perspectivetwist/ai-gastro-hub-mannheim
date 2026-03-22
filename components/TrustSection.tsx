@@ -115,7 +115,7 @@ export default function TrustSection() {
         </div>
 
         {/* Legal */}
-        <div className="flex flex-col md:flex-row justify-between gap-8">
+        <div className="flex justify-center gap-8">
           <div className="flex gap-6">
             <a
               href="/impressum"
