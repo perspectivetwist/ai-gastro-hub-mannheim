@@ -38,7 +38,7 @@ export default function ProductsSection() {
                   style={{ color: "#00AAFF" }}
                   className="font-bold mb-2"
                 >
-                  📸 AEO Scanner
+                  AEO Scanner
                 </div>
                 <div
                   style={{ color: "#cccccc" }}
@@ -72,7 +72,7 @@ export default function ProductsSection() {
                   style={{ color: "#00FF88" }}
                   className="font-bold mb-2"
                 >
-                  ⭐ GEO Scanner
+                  GEO Scanner
                 </div>
                 <div
                   style={{ color: "#cccccc" }}
@@ -120,7 +120,7 @@ export default function ProductsSection() {
                 style={{ color: "#FFE600" }}
                 className="font-bold mb-2"
               >
-                🤖 Agent Ready Scanner
+                Agent Ready Scanner
               </div>
               <div
                 style={{ color: "#cccccc" }}
@@ -166,7 +166,7 @@ export default function ProductsSection() {
                 style={{ color: "#FF1744" }}
                 className="font-bold mb-2"
               >
-                🔒 Security Scanner
+                Security Scanner
               </div>
               <div
                 style={{ color: "#cccccc" }}
