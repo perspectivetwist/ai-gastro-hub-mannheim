@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
       title: seo.title || data.headline,
       description: seo.metaDescription || data.headline,
       url: seo.canonicalUrl || `https://ai-gastro-hub.vercel.app/newsroom/${params.slug}`,
-      siteName: 'KI-Gastro-Newsroom — AI Shift Drift',
+      siteName: 'KI-Gastro-Newsroom | AI Shift Drift',
       locale: 'de_DE',
       type: 'article',
       publishedTime: data.seo?.datePublished || data.generatedAt,
@@ -70,7 +70,7 @@ export default function NewsroomArticle({ params }: { params: { slug: string } }
             },
             "publisher": {
               "@type": "Organization",
-              "name": "AI Shift Drift — KI-Gastro-Newsroom",
+              "name": "AI Shift Drift | KI-Gastro-Newsroom",
               "url": "https://ai-gastro-hub.vercel.app/newsroom"
             },
             "description": data.seo?.metaDescription || data.headline,

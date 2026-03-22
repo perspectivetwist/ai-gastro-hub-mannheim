@@ -10,12 +10,12 @@ export const metadata: Metadata = {
   verification: { other: { 'msvalidate.01': '4238BAC83D0A84184DB5C8AEF5C3CE14' } },
   title: "AI-Readiness für die Mannheimer Gastronomie | AI Shift Drift",
   description:
-    "4 kostenlose KI-Scanner für Gastronomiebetriebe in Mannheim. Sichtbarkeit, Reputation, Agent-Readiness und Sicherheit — kostenlos prüfen.",
+    "4 kostenlose KI-Scanner für Gastronomiebetriebe in Mannheim. Sichtbarkeit, Reputation, Agent-Readiness und Sicherheit, kostenlos prüfen.",
   robots: { index: true, follow: true },
   openGraph: {
     title: "AI-Readiness für die Mannheimer Gastronomie | AI Shift Drift",
     description:
-      "4 kostenlose KI-Scanner für Gastronomiebetriebe in Mannheim. Sichtbarkeit, Reputation, Agent-Readiness und Sicherheit — kostenlos prüfen.",
+      "4 kostenlose KI-Scanner für Gastronomiebetriebe in Mannheim. Sichtbarkeit, Reputation, Agent-Readiness und Sicherheit, kostenlos prüfen.",
     locale: "de_DE",
     url: "https://ai-gastro-hub-mannheim.vercel.app",
   },

@@ -24,7 +24,7 @@ export default function JsonLdSchema() {
         "name": "Was ist AI Shift Drift für Restaurants?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI Shift Drift ist eine kostenlose KI-Readiness-Plattform speziell für deutsche Restaurants und Gastronomiebetriebe — mit 4 Scannern für Sichtbarkeit, Reputation, Agent-Bereitschaft und Sicherheit."
+          "text": "AI Shift Drift ist eine kostenlose KI-Readiness-Plattform speziell für deutsche Restaurants und Gastronomiebetriebe. Mit 4 Scannern für Sichtbarkeit, Reputation, Agent-Bereitschaft und Sicherheit."
         }
       },
       {
@@ -32,7 +32,7 @@ export default function JsonLdSchema() {
         "name": "Für welche Gastronomiebetriebe ist AI Shift Drift geeignet?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Für Restaurants, Cafés, Bars, Lieferdienste und Catering-Unternehmen die verstehen wollen ob sie für die KI-Ära bereit sind — ohne IT-Kenntnisse."
+          "text": "Für Restaurants, Cafés, Bars, Lieferdienste und Catering-Unternehmen die verstehen wollen ob sie für die KI-Ära bereit sind. Ohne IT-Kenntnisse."
         }
       },
       {
@@ -64,7 +64,7 @@ export default function JsonLdSchema() {
         "name": "Wie fange ich an?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Starte mit dem AEO Scanner — gib deine Restaurant-URL ein und sieh in 30 Sekunden deinen KI-Sichtbarkeits-Score."
+          "text": "Starte mit dem AEO Scanner. Gib deine Restaurant-URL ein und sieh in 30 Sekunden deinen KI-Sichtbarkeits-Score."
         }
       }
     ]
