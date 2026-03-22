@@ -1,0 +1,43 @@
+{
+  "slug": "kw-8-2026",
+  "kw": 8,
+  "year": 2026,
+  "date": "23. Februar 2026",
+  "headline": "Widersprüche in deinen Daten? KI sortiert dich aus der Suche.",
+  "zahl_der_woche": {
+    "zahl": "43 % der Restaurants",
+    "kontext": "haben Unstimmigkeiten zwischen Google, ihrer Website und Bewertungsplattformen. Das kostet dich sichtbare KI-Anfragen."
+  },
+  "news": [
+    {
+      "titel": "KI sucht nicht wie Google: Konsistenz statt Keywords",
+      "was_passiert": "Moderne KI-Systeme wie Perplexity oder Claude kombinieren Informationen aus mehreren Quellen gleichzeitig. Sie prüfen dabei, ob deine Öffnungszeiten, Adresse und Küchenstil überall identisch sind. Widersprüche führen dazu, dass KI dein Restaurant als unsicher einstuft und nicht empfiehlt.",
+      "was_bedeutet_das": "Deine SEO-Optimierung für Google bringt dir weniger. Stattdessen musst du deine Daten synchron halten: Ein Fehler bei Google My Business, auf deiner Website und auf TheFork wirkt sich direkt auf KI-Sichtbarkeit aus. Wo früher Keywords zählten, zählt jetzt Zuverlässigkeit."
+    },
+    {
+      "titel": "Preiskalkulation und Menüplanung ohne Agentur",
+      "was_passiert": "Tools wie Tastewise, ChatGPT und Notion AI kosten zusammen unter 100 Euro monatlich und erledigen: automatische Speisekarteneditierung basierend auf Kosten, Preisempfehlungen für Upselling und schnelle Anpassungen bei Rohstoffpreisen. Restaurantbesitzer nutzen diese Kombination jetzt wie eine virtuelle Menüplanerin.",
+      "was_bedeutet_das": "Du sparst dir teure Beratungen und kannst Preise wöchentlich anpassen statt jährlich. Die KI schlägt dir vor, welche Gänge margenstärker sind und wo deine Gäste eher addieren. Das ist keine Spielerei mehr, sondern wirtschaftliche Notwendigkeit bei hohen Energiekosten."
+    },
+    {
+      "titel": "Datenkonsistenz als neuer Rankingfaktor",
+      "was_passiert": "KI-Suchsysteme gewichten jetzt nicht nur Bewertungen, sondern auch die Konsistenz deiner Stammdaten. Wenn deine Öffnungszeiten auf Google anders sind als auf deiner Website oder bei Yelp, wertet KI das als Unsicherheitssignal. Restaurants mit konsistenten Daten bekommen bevorzugte Empfehlungen.",
+      "was_bedeutet_das": "Ein einzelner Datensatz-Fehler in einer Plattform kann dich aus mehreren KI-Empfehlungen verdrängen. Du musst Öffnungszeiten, Adresse, Küchenstil und Preisklasse aktiv synchron halten. Das ist ein wöchentliches Kontrollverfahren geworden, keine einmalige Aufgabe."
+    }
+  ],
+  "handlungsempfehlung": "Kontrolliere diese Woche deine Daten auf Google My Business, deiner Website und einer Bewertungsplattform (z.B. TheFork, TripAdvisor). Notiere jede Unstimmigkeit bei Öffnungszeiten, Adresse, Telefon und Küchenstil. Korrigiere alles auf den gleichen Stand. Das dauert 20-30 Minuten und erhöht deine KI-Sichtbarkeit sofort.",
+  "seo": {
+    "title": "KI-Suche: Datenkonsistenz statt Keywords | KW 8",
+    "metaDescription": "KW 8: Widersprüche in deinen Restaurant-Daten sortieren dich aus KI-Suchen. So machst du deine Infos konsistent.",
+    "keywords": "KI-Suche, Datenkonsistenz Restaurant, Google My Business, Speisekarten KI",
+    "canonicalUrl": "https://ai-gastro-hub.vercel.app/newsroom/kw-8-2026",
+    "datePublished": "2026-02-23T10:00:00.000Z",
+    "internalLinks": [
+      {
+        "url": "https://aeo-gastro.vercel.app",
+        "text": "Prüfe kostenlos: Findet ChatGPT dein Restaurant?"
+      }
+    ]
+  },
+  "generatedAt": "2026-03-18T19:20:53.592Z"
+}

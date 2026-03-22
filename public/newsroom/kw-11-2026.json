@@ -1,0 +1,43 @@
+{
+  "slug": "kw-11-2026",
+  "kw": 11,
+  "year": 2026,
+  "date": "16. März 2026",
+  "headline": "Gäste fragen ChatGPT, Perplexity oder Google: Du musst in der ANTWORT auftauchen, nicht in der Linkliste",
+  "zahl_der_woche": {
+    "zahl": "25% der traditionellen Google-Suchanfragen",
+    "kontext": "So viel Traffic verlierst du dieses Jahr an KI-Antwort-Engines. Deine Website steht noch nach zehn blauen Links in der Suchergebnisliste, aber KI zeigt nur eine Antwort. Du brauchst deine Quelle darin."
+  },
+  "news": [
+    {
+      "titel": "Eine Antwort statt zehn Links",
+      "was_passiert": "<cite index=\"11-5\">Gartner prognostiziert, dass die traditionelle Suchmaschinenlautstärke bis 2026 um 25% sinken wird</cite>. ChatGPT, Perplexity und Google zeigen jetzt EINE Empfehlung statt einer Liste. Gäste bekommen direkt die Antwort. Kein Durchklicken mehr.",
+      "was_bedeutet_das": "Dein Restaurant kann auf Seite 1 bei Google stehen, aber in Perplexity komplett fehlen. Die alte SEO-Strategie schützt dich nicht mehr. <cite index=\"11-8,11-9\">Answer Engine Optimization geht darum, sicherzustellen, dass KI-Systeme tatsächlich über deine Marke sprechen, wenn Menschen Fragen stellen. Es geht darum, zitiert, angeführt und empfohlen zu werden, bevor Benutzer ein Suchergebnis sehen</cite>."
+    },
+    {
+      "titel": "Perplexity zitiert deine Konkurrenten, nicht dich",
+      "was_passiert": "<cite index=\"6-1\">Perplexity AI hat zwischen 22 und 30 Millionen monatlich aktive Nutzer Anfang 2026</cite>. Die KI-Suchmaschine nutzt Echtzeit-Websuche und bevorzugt aktuelle, strukturierte Quellen mit nachgewiesener Autorität. <cite index=\"24-6\">Perplexity bewertet dabei drei Faktoren: die Aktualität der Information (maximal 3-6 Monate alt), die Domain-Authority gemäß SEO-Metriken (DR 70+ werden bevorzugt), und die strukturierte Zitierfähigkeit von Fakten (klare Aussagen mit Jahreszahlen)</cite>.",
+      "was_bedeutet_das": "Wenn deine Website über sechs Monate alt ist oder keine frischen Zahlen enthält, wird Perplexity dich überschlagen. Du brauchst aktuelle Inhalte mit konkreten Fakten, Jahreszahlen und strukturiertem HTML. Ohne das sind deine drei größten Konkurrenten die einzigen, die Gäste sehen."
+    },
+    {
+      "titel": "AEO schlägt SEO: Zitate zählen jetzt",
+      "was_passiert": "<cite index=\"11-21\">Marken, die Answer Engines optimieren, verzeichnen 3,4-mal mehr Sichtbarkeit als Spätanwender</cite>. Klassische Google-Optimierung? Reicht nicht mehr. <cite index=\"11-35,11-36,11-37\">SEO konzentriert sich auf die Verbesserung der Rankings in traditionellen Suchmaschinenergebnissen, während AEO sich darauf konzentriert, dass deine Marke in KI-generierten Antworten auf Plattformen wie ChatGPT, Perplexity und Google AI Overviews zitiert wird. Während SEO auf Klicks abzielt, zielt AEO auf Zitierungen und Markenauthentizität in KI-Antworten ab</cite>.",
+      "was_bedeutet_das": "Deine bisherige Arbeit (Backlinks, Keywords, Seiten-Geschwindigkeit) ist nicht sinnlos. Aber sie reicht nicht. Du brauchst jetzt auch: klare, in sich geschlossene Antwortsätze mit Jahreszahlen, FAQ-Strukturen mit Schema.org-Markup, und Bulletpoint-Listen. Perplexity zieht automatisiert Antworten aus Texten, wenn sie genau richtig formatiert sind."
+    }
+  ],
+  "handlungsempfehlung": "Suche jetzt auf Perplexity nach deinem Kern-Thema (z.B. 'Beste Restaurants für Hochzeiten in [deine Stadt]'). Schreib auf, welche drei Konkurrenten-Restaurants Perplexity nennt. Sind du dabei? Nein? Dann ergänze deine Website diese Woche um: 1) aktuelle Zahlen/Jahreszahlen im Text, 2) Bulletpoint-Listen zu deinen Angeboten, 3) FAQ mit Frage-Antwort-Format. Braucht 20 Minuten.",
+  "seo": {
+    "title": "AEO statt SEO: Perplexity-Optimierung für Restaurants",
+    "metaDescription": "KW 11: Perplexity und ChatGPT zeigen nur eine Antwort. Dein Restaurant muss darin zitiert werden, nicht in Linklisten.",
+    "keywords": "KI-Suche Gastronomie, Perplexity Restaurant, Answer Engine Optimization, AEO SEO Unterschied",
+    "canonicalUrl": "https://ai-gastro-hub.vercel.app/newsroom/kw-11-2026",
+    "datePublished": "2026-03-16T10:00:00.000Z",
+    "internalLinks": [
+      {
+        "url": "https://aeo-gastro.vercel.app",
+        "text": "Prüfe kostenlos: Findet ChatGPT dein Restaurant?"
+      }
+    ]
+  },
+  "generatedAt": "2026-03-18T19:21:45.856Z"
+}

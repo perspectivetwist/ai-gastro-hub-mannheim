@@ -1,0 +1,43 @@
+{
+  "slug": "kw-5-2026",
+  "kw": 5,
+  "year": 2026,
+  "date": "02. Februar 2026",
+  "headline": "Bewertungen sind jetzt dein bestes oder schlechtestes Werkzeug. Google lernt dazwischen zu lesen.",
+  "zahl_der_woche": {
+    "zahl": "170 Millionen gefälschte Bewertungen entfernt",
+    "kontext": "Google erkennt jetzt, ob Kundenbewertungen echt sind oder gekauft. Das ändert alles für dein Google-Ranking."
+  },
+  "news": [
+    {
+      "titel": "Google liest zwischen den Zeilen: Ask Maps kommt",
+      "was_passiert": "Google Maps bekommt eine KI namens Ask Maps. Sie beantwortet Fragen wie \"Wo essen Familien mit Kleinkindern draußen?\" Die KI liest nicht nur deine Sternewertung, sondern analysiert die Bewertungstexte von hunderten Besuchern. Sie sieht Muster, die Menschen nicht sehen.",
+      "was_bedeutet_das": "Deine 5-Stern-Bewertungen nutzen dir nichts mehr, wenn die Textinhalte nicht dazu passen. Ein Gast, der schreibt \"Gutes Essen, aber sehr laut\", hilft dir anders als ein Gast, der schreibt \"Perfekt für Familien, ruhige Ecke\". Deine Bewertungen müssen konkret sein. Ask Maps kommt bald nach Deutschland."
+    },
+    {
+      "titel": "Gekaufte Reviews funktionieren nicht mehr",
+      "was_passiert": "Google entfernte 2025 über 170 Millionen gefälschte Bewertungen. Die KI analysiert jetzt Textmuster, Nutzerverhalten, sogar ob Fotos manipuliert sind. Gekaufte Reviews sehen nicht mehr wie echt aus.",
+      "was_bedeutet_das": "Du kannst Reviews nicht mehr kaufen, ohne erwischt zu werden. Schlimmer: Google kennzeichnet dann dein Restaurant mit einer Warnung. Das kostet Buchungen. Konzentriere dich auf echte Kundenbewertungen. Deine besten Helfer sind Gäste, die gerade gegessen haben und noch am Tisch sitzen."
+    },
+    {
+      "titel": "Allergene per KI: Speisekarte wird automatisch konform",
+      "was_passiert": "Neue KI-Tools scannen deine Rezepte und generieren Allergenlisten automatisch. Das spart Stunden bei der Einhaltung von EU-Vorschriften. Keine manuellen Fehler mehr bei der Kennzeichnung.",
+      "was_bedeutet_das": "Allergenkennzeichnung ist seit 2014 Pflicht in der EU. Fehler kosten bis zu 50.000 Euro Bußgeld. Mit KI-Tools wird deine Speisekarte in Minuten konform und bleibt es. Du zahlst einmal Geld, dann kümmert sich die KI um Updates."
+    }
+  ],
+  "handlungsempfehlung": "Schau dir deine letzten 20 Bewertungen an. Welche beschreiben konkrete Erlebnisse? Welche sind vage oder identisch mit anderen? Das ist dein Benchmark. Prüfe dann deine Allergenkennzeichnung: Ist sie lesbar? Verstehen Gäste sie beim Bestellen?",
+  "seo": {
+    "title": "KW 5: Fake-Reviews weg, Ask Maps kommt | KI-Gastro",
+    "metaDescription": "115 Mio. Fake-Reviews raus. Google Maps liest Bewertungstexte. Allergenkennzeichnung per KI. Was das für Restaurants bedeutet.",
+    "keywords": "Google Reviews, Ask Maps, Allergenkennzeichnung Gastronomie, KI Bewertungen",
+    "canonicalUrl": "https://ai-gastro-hub.vercel.app/newsroom/kw-5-2026",
+    "datePublished": "2026-02-02T10:00:00.000Z",
+    "internalLinks": [
+      {
+        "url": "https://geo-gastro.vercel.app",
+        "text": "Kostenloser KI-Reputations-Check für dein Restaurant"
+      }
+    ]
+  },
+  "generatedAt": "2026-03-18T19:20:11.260Z"
+}

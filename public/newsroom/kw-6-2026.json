@@ -1,0 +1,47 @@
+{
+  "slug": "kw-6-2026",
+  "kw": 6,
+  "year": 2026,
+  "date": "09. Februar 2026",
+  "headline": "Fake-Bewertungen verlieren ihre Kraft: TripAdvisor sperrt KI-Spam ab",
+  "zahl_der_woche": {
+    "zahl": "40% weniger Fake-Reviews",
+    "kontext": "Deine echten Bewertungen wiegen jetzt deutlich schwerer. Manipulierte Konkurrenz-Rezensionen landen im Müll."
+  },
+  "news": [
+    {
+      "titel": "TripAdvisor knackt das Fake-Review-Problem",
+      "was_passiert": "TripAdvisor hat KI-Echtzeit-Validierung eingeführt und reduziert damit Spam-Bewertungen um 40%. Gleichzeitig steigen authentische Beiträge um 25% seit dem Start. Das System erkennt automatisch, welche Rezensionen echt sind und welche KI-generiert oder gekauft.",
+      "was_bedeutet_das": "Für dein Restaurant: Echte Gäste-Bewertungen zählen jetzt mehr als je zuvor. Wenn deine Konkurrenz mit gefälschten 5-Sterne-Bewertungen arbeitet, funktioniert das nicht mehr. Konzentriere dich auf echte Gäste-Feedback statt Bewertungs-Manipulation."
+    },
+    {
+      "titel": "Google AI Overviews jetzt auch im deutschsprachigen Raum",
+      "was_passiert": "Google hat AI Overviews in über 40 Ländern freigeschaltet, darunter Deutschland, Österreich und die Schweiz. Nutzer sehen jetzt direkt in Google eine KI-generierte Zusammenfassung der Antwort statt der klassischen 10 blauen Links.",
+      "was_bedeutet_das": "Dein Restaurant muss jetzt in den AI Overviews sichtbar sein. Die klassischen Google-Snippets reichen nicht mehr. Wenn Google dein Restaurant nicht in der KI-Zusammenfassung erwähnt, verlierst du Sichtbarkeit. Überprüfe, ob dein Google-Business-Profil aktuell und vollständig ist."
+    },
+    {
+      "titel": "Social-Media-Inhalte selbst erstellen statt kaufen",
+      "was_passiert": "Tools wie Canva Magic Studio, ChatGPT und Midjourney ermöglichen es, professionelle Restaurant-Posts ohne Agentur zu erstellen. Fotos, Texte, Stories, Grafiken aus einer Hand. Das kostet zusammen unter 50 Euro monatlich.",
+      "was_bedeutet_das": "Du brauchst keine teure Social-Media-Agentur mehr. In 30 Minuten pro Woche erstellst du Instagram- und Facebook-Posts, die genauso gut aussehen wie die von Agenturen. Starte mit Canva (kostenlos) und ChatGPT (10 Euro/Monat) – das reicht für den Anfang."
+    }
+  ],
+  "handlungsempfehlung": "Aktualisiere diese Woche dein Google-Business-Profil: Alle Öffnungszeiten, Speisekarte, Fotos müssen aktuell sein. Dann teste Canva Magic Studio oder ChatGPT mit einem Restaurant-Post für diese Woche. Beide brauchen weniger als 30 Minuten.",
+  "seo": {
+    "title": "Fake-Reviews, Google AI, KI-Content | KI-Gastro KW 6",
+    "metaDescription": "TripAdvisor blockiert 40% Spam-Bewertungen. Google AI Overviews in DACH. Tools für Social-Media-Posts unter 50 Euro.",
+    "keywords": "KI Gastronomie, TripAdvisor Bewertungen, Google AI Overviews, Social Media KI Tools",
+    "canonicalUrl": "https://ai-gastro-hub.vercel.app/newsroom/kw-6-2026",
+    "datePublished": "2026-02-09T10:00:00.000Z",
+    "internalLinks": [
+      {
+        "url": "https://geo-gastro.vercel.app",
+        "text": "Kostenloser KI-Reputations-Check für dein Restaurant"
+      },
+      {
+        "url": "https://aeo-gastro.vercel.app",
+        "text": "Prüfe kostenlos: Findet ChatGPT dein Restaurant?"
+      }
+    ]
+  },
+  "generatedAt": "2026-03-18T19:20:24.920Z"
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "kw-1-2026",
+  "kw": 1,
+  "year": 2026,
+  "date": "05. Januar 2026",
+  "headline": "Mehrwertsteuer sinkt: Jetzt wird die Preisgestaltung spannend",
+  "zahl_der_woche": {
+    "zahl": "12 Prozentpunkte Ersparnis",
+    "kontext": "Bei einem Gericht für 20 Euro sparst du ab sofort 2,40 Euro Steuern ein, wenn du die Senkung weitergibst."
+  },
+  "news": [
+    {
+      "titel": "Mehrwertsteuer auf Speisen sinkt auf 7 Prozent",
+      "was_passiert": "Seit dem 1. Januar 2026 zahlst du auf warme Speisen nur noch 7 Prozent statt 19 Prozent Mehrwertsteuer. Das gilt für alle Restaurants in Deutschland, Österreich und der Schweiz (je nach Regelung vor Ort). Getränke bleiben unverändert bei 19 Prozent.",
+      "was_bedeutet_das": "Du musst deine Preise nicht senken, musst es aber auch nicht. Entscheidend: Dein Kassensystem muss die neuen Steuersätze abbilden können. Viele ältere Kassen funktionieren das nicht korrekt. Sprich sofort mit deinem Kassenhersteller oder Steuerberater, sonst gibt es bei der nächsten Kontrolle Ärger."
+    },
+    {
+      "titel": "KI-Agenten buchen ab sofort automatisch bei dir",
+      "was_passiert": "2026 bringt eine neue Art von Software: KI-Agenten. Diese Programme arbeiten ohne menschliche Eingriffe. Sie können eigenständig einen Tisch bei dir reservieren oder eine Bestellung aufgeben. Das passiert über Chatbots, Chat-Apps oder direkt über Bestell-Plattformen.",
+      "was_bedeutet_das": "Gute Nachricht: Neue Buchungen ohne deine Arbeit. Schlechte Nachricht: Dein Reservierungssystem muss Agenten verstehen. Das heißt konkret: Deine Online-Buchungsseite oder dein Buchungs-Telefonsystem muss sich von Maschinen steuern lassen. Überprüfe das sofort. Restaurants ohne Agent-Schnittstelle verlieren Kunden."
+    },
+    {
+      "titel": "ChatGPT ersetzt Google bei der Restaurantsuche",
+      "was_passiert": "Immer mehr Gäste in Deutschland nutzen ChatGPT oder Perplexity statt Google Maps, wenn sie ein Restaurant suchen. Sie fragen: 'Welches Restaurant ist gut für Familien in Berlin?' statt zu googlen. Diese KI-Suche wird 2026 zur Hauptverkehrsader.",
+      "was_bedeutet_das": "Google-Rankings werden weniger wichtig. Dafür brauchst du Präsenz in den richtigen KI-Tools. Das funktioniert über korrekte Bewertungen, aktuelle Infos (Öffnungszeiten, Speisen, Allergene) und eine Website, die KI-Bots lesen können. Veraltete oder fehlerhafte Infos im Netz kosten dir jetzt direkt Gäste."
+    }
+  ],
+  "handlungsempfehlung": "Mach diese Woche drei Dinge: Erste, ruf deinen Kassenhersteller an und frag, ob die 7-Prozent-Steuer auf Speisen aktiv ist. Zweite, check deine Buchungs-Website: Geht sie auch für Automatisierung? Dritte, überprüf auf Google My Business, ob deine Öffnungszeiten und Infos korrekt sind. Je präziser, desto besser für KI-Suchen.",
+  "seo": {
+    "title": "Mehrwertsteuer 7%: Das ändert sich 2026 | KI-Gastro",
+    "metaDescription": "KW 1 2026: Mehrwertsteuer sinkt auf 7%, KI-Agenten buchen automatisch, ChatGPT ersetzt Google. Das bedeutet für dein Restaurant.",
+    "keywords": "Mehrwertsteuer Gastronomie 7 Prozent, KI-Agenten Restaurantbuchung, ChatGPT Restaurantsuche, Kassensystem Mehrwertsteuer 2026",
+    "canonicalUrl": "https://ai-gastro-hub.vercel.app/newsroom/kw-1-2026",
+    "datePublished": "2026-01-05T10:00:00.000Z",
+    "internalLinks": [
+      {
+        "url": "https://aeo-gastro.vercel.app",
+        "text": "Prüfe kostenlos: Findet ChatGPT dein Restaurant?"
+      },
+      {
+        "url": "https://agentready-gastro.vercel.app",
+        "text": "Prüfe ob KI-Agenten bei dir buchen können"
+      },
+      {
+        "url": "https://aisecurity-gastro.vercel.app",
+        "text": "Kostenloser KI-Sicherheits-Check für dein Restaurant"
+      }
+    ]
+  },
+  "generatedAt": "2026-03-18T19:19:07.412Z"
+}

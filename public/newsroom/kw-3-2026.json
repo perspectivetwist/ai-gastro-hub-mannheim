@@ -1,0 +1,47 @@
+{
+  "slug": "kw-3-2026",
+  "kw": 3,
+  "year": 2026,
+  "date": "19. Januar 2026",
+  "headline": "Die Telefonistin: Deine KI antwortet jetzt auf Reservierungsanfragen",
+  "zahl_der_woche": {
+    "zahl": "42% der Reservierungen entstehen noch immer per Telefon",
+    "kontext": "Wenn KI diese Anrufe automatisch beantwortet, sparst du etwa 5 Stunden wöchentlich für dein Team."
+  },
+  "news": [
+    {
+      "titel": "KI-Telefonservice bucht deine Tische allein",
+      "was_passiert": "Bookline und OpenTable verbinden ihre Systeme mit KI-gesteuerten Telefonservices. Gäste rufen an, die KI versteht Wünsche in Echtzeit und trägt den Termin direkt in deinen Kalender. Kein Notizblock, kein Rückruf nötig.",
+      "was_bedeutet_das": "Für dein Restaurant: Die KI antwortet nachts und am Wochenende selbstständig. Gäste buchen schneller, Fehler bei Terminvergabe sinken stark. Du brauchst aber eine gute Datenbasis: Tischplan, Kapazität und Öffnungszeiten müssen korrekt hinterlegt sein."
+    },
+    {
+      "titel": "ChatGPT wird zur Lieferplattform deines Konkurrenten",
+      "was_passiert": "DoorDash und Uber Eats integrieren ihre Menüs direkt in ChatGPT. Gäste bestellen ohne App oder Website zu verlassen. Die KI schlägt automatisch Restaurants vor.",
+      "was_bedeutet_das": "Kleine Restaurants mit eigenem Lieferdienst verlieren Sichtbarkeit. Gäste finden dich dort nicht mehr, wo sie jetzt zuerst schauen. Du solltest prüfen: Sind deine Menüdaten in OpenTable oder ähnlichen Systemen aktuell? Falls nicht, buche dich schnell an, bevor die Konkurrenz alle Plätze belegt."
+    },
+    {
+      "titel": "Google Business Profile wird deine KI-Visitenkarte",
+      "was_passiert": "Strukturierte Daten wie Öffnungszeiten, Menüs und Allergene werden zur Pflicht für KI-Sichtbarkeit. Google indiziert dein Profil jetzt nicht nur für menschliche Suche, sondern auch für KI-Agenten und Chatbots.",
+      "was_bedeutet_das": "Gäste finden dein Restaurant nur noch, wenn dein Profil komplett ausgefüllt ist. Fehlerhafte Öffnungszeiten? Die KI gibt falsche Informationen weiter. Keine Menüdaten? KI-Agenten können nicht buchen. Diese Woche solltest du 30 Minuten in dein Profil investieren."
+    }
+  ],
+  "handlungsempfehlung": "Öffne dein Google Business Profile. Prüfe: Sind Öffnungszeiten, Telefon und Tischanzahl korrekt? Falls du einen Lieferdienst betreibst: Ist dein Menü auf OpenTable oder Bookline aktuell? 20 Minuten reichen für die erste Runde.",
+  "seo": {
+    "title": "KI-Telefonservice und Google Business: KW 3 | KI-Gastro",
+    "metaDescription": "KW 3 2026: KI bucht Tische per Telefon. Google Business wird Pflicht. So rüstest du dein Restaurant auf.",
+    "keywords": "KI Telefonservice Restaurant, Google Business Profile Gastronomie, KI-Reservierungen, Lieferservice KI",
+    "canonicalUrl": "https://ai-gastro-hub.vercel.app/newsroom/kw-3-2026",
+    "datePublished": "2026-01-19T10:00:00.000Z",
+    "internalLinks": [
+      {
+        "url": "https://aeo-gastro.vercel.app",
+        "text": "Prüfe kostenlos: Findet ChatGPT dein Restaurant?"
+      },
+      {
+        "url": "https://agentready-gastro.vercel.app",
+        "text": "Prüfe ob KI-Agenten bei dir buchen können"
+      }
+    ]
+  },
+  "generatedAt": "2026-03-18T19:19:35.866Z"
+}

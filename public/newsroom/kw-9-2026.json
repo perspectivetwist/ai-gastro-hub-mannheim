@@ -1,0 +1,47 @@
+{
+  "slug": "kw-9-2026",
+  "kw": 9,
+  "year": 2026,
+  "date": "02. März 2026",
+  "headline": "Speisekarten in Sekunden, Bewertungen im Autopilot: Das sind die Tools, die laufen",
+  "zahl_der_woche": {
+    "zahl": "unter 60 Sekunden",
+    "kontext": "So lange brauchst du jetzt maximal, um eine komplette Speisekarte mit KI zu erstellen und online zu gehen."
+  },
+  "news": [
+    {
+      "titel": "Yumzi Gastro GPT: Speisekarten zum Tippen",
+      "was_passiert": "Das österreichische Startup Yumzi hat ein KI-Tool gelauncht, das deine Speisekarte in Sekunden erstellt. Digital und gedruckt. Nutzer berichten von besseren Google-Bewertungen und höherem Durchschnittsumsatz nach der Optimierung.",
+      "was_bedeutet_das": "Du sparst Stunden bei der Menü-Gestaltung. Die KI schlägt auch Preise vor und optimiert Beschreibungen für Google. Dein Restaurant wird in Bewertungs-Apps besser gefunden, weil die Karten relevanter werden."
+    },
+    {
+      "titel": "Raitify: Dein KI-Assistent für Bewertungen",
+      "was_passiert": "Das deutsche Startup Raitify automatisiert Bewertungsmanagement komplett. Deine KI antwortet auf Google- und TripAdvisor-Reviews in Sekunden. Nicht generisch, sondern auf deine bisherigen Antworten trainiert.",
+      "was_bedeutet_das": "Du verlierst keine Zeit mehr mit Bewertungs-Antworten. Das spart echte Arbeitsstunden in der Woche. Gleichzeitig erhöht sich dein Profil-Score, weil du schneller antwortest. Gäste sehen: Hier kümmert sich jemand."
+    },
+    {
+      "titel": "EU AI Act: Neue Regeln für deine KI",
+      "was_passiert": "Seit 2026 gilt der EU AI Act auch für kleine Restaurants. Du musst KI-generierte Inhalte kennzeichnen (Speisekarten, Bewertungs-Antworten, Website-Texte). KI-Chatbots auf deiner Website brauchen Datenschutzerklärungen.",
+      "was_bedeutet_das": "Bei Yumzi und ähnlichen Tools musst du künftig sichtbar machen: Hier arbeitet eine KI mit. Das ist keine Verbotsliste, sondern Transparenz. Chatbots auf deiner Website sollten jetzt ein Privacy-Banner haben. Das ist eher eine Formalität als teuer, aber du solltest es wissen."
+    }
+  ],
+  "handlungsempfehlung": "Schau dir diese Woche Yumzi und Raitify an: 15 Minuten kostenlos testen. Deine Speisekarten können sofort besser werden. Und überprüfe: Hast du irgendwelche KI-Tools auf deiner Website? Dann ergänze eine kurze Zeile in der Datenschutzerklärung.",
+  "seo": {
+    "title": "Neue KI-Tools für Speisekarten und Bewertungen | KW 9",
+    "metaDescription": "KW 9 2026: Yumzi und Raitify automatisieren Speisekarten und Bewertungsantworten. Was Restaurants jetzt beachten müssen.",
+    "keywords": "KI Speisekarten, Bewertungsmanagement KI, Yumzi, Raitify",
+    "canonicalUrl": "https://ai-gastro-hub.vercel.app/newsroom/kw-9-2026",
+    "datePublished": "2026-03-02T10:00:00.000Z",
+    "internalLinks": [
+      {
+        "url": "https://geo-gastro.vercel.app",
+        "text": "Kostenloser KI-Reputations-Check für dein Restaurant"
+      },
+      {
+        "url": "https://aisecurity-gastro.vercel.app",
+        "text": "Kostenloser KI-Sicherheits-Check für dein Restaurant"
+      }
+    ]
+  },
+  "generatedAt": "2026-03-18T19:21:06.395Z"
+}

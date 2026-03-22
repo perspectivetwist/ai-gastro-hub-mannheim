@@ -1,0 +1,47 @@
+{
+  "slug": "kw-12-2026",
+  "kw": 12,
+  "year": 2026,
+  "date": "18. März 2026",
+  "headline": "ChatGPT nimmt jetzt Tischreservierungen an: was das für dein Restaurant bedeutet",
+  "zahl_der_woche": {
+    "zahl": "21%",
+    "kontext": "21% der Deutschen planen laut OpenTable, 2026 KI wie ChatGPT oder Perplexity für die Restaurantsuche zu nutzen. Tendenz stark steigend."
+  },
+  "news": [
+    {
+      "titel": "TheFork + ChatGPT: Direkt reservieren über die KI",
+      "was_passiert": "TheFork ist jetzt Launch-Partner von OpenAI. Gäste können über ChatGPT direkt Tische reservieren. Ohne die TheFork-Website zu öffnen. Die KI übernimmt den kompletten Buchungsprozess.",
+      "was_bedeutet_das": "Restaurants die nicht auf TheFork mit vollständigen Daten vertreten sind, werden bei diesen KI-Reservierungen komplett übergangen. Die Buchung landet beim Konkurrenten."
+    },
+    {
+      "titel": "L'Osteria: KI-Tischzuweisung bringt 15% mehr Auslastung",
+      "was_passiert": "Die Restaurantkette L'Osteria hat in einem A/B-Test KI-basierte automatische Tischzuweisung getestet. Ergebnis: 15% höhere Auslastung und mehr Umsatz pro Kopf.",
+      "was_bedeutet_das": "Smarte Reservierungssysteme mit KI sind kein Luxus mehr. Für kleinere Restaurants gibt es bereits günstige Einstiegslösungen ab 50€/Monat."
+    },
+    {
+      "titel": "Internorga 2026: KI-gesteuertes Restaurant gewinnt Gründerpreis",
+      "was_passiert": "Das Kölner Restaurant NOI hat den Deutschen Gastro-Gründerpreis 2026 gewonnen. Mit einem Konzept das KI für Personalplanung, Einkauf und Tischbelegung einsetzt.",
+      "was_bedeutet_das": "KI im Restaurantbetrieb ist kein Zukunftsthema mehr sondern ein Wettbewerbsvorteil. Wer jetzt anfängt hat einen Vorsprung von 2-3 Jahren vor der Konkurrenz."
+    }
+  ],
+  "handlungsempfehlung": "Prüfe ob dein Restaurant auf TheFork gelistet ist und alle Infos vollständig sind: Öffnungszeiten, Küche, Bilder, Reservierungslink. Das ist jetzt der direkteste Weg in ChatGPT-Reservierungen. Dauert 10 Minuten.",
+  "generatedAt": "2026-03-18T10:00:00.000Z",
+  "seo": {
+    "title": "ChatGPT nimmt jetzt Tischreservierungen an | KI-Gastro-Newsroom KW 12 2026",
+    "metaDescription": "KW 12 2026: ChatGPT reserviert direkt Tische über TheFork. Was das für dein Restaurant in Deutschland bedeutet. Kostenloser KI-Check.",
+    "keywords": "KI Gastronomie, KI Restaurant Deutschland, ChatGPT Restaurant reservieren, künstliche Intelligenz Gastro 2026",
+    "canonicalUrl": "https://ai-gastro-hub.vercel.app/newsroom/kw-12-2026",
+    "datePublished": "2026-03-18T10:00:00.000Z",
+    "internalLinks": [
+      {
+        "url": "https://aeo-gastro.vercel.app",
+        "text": "Prüfe kostenlos ob ChatGPT dein Restaurant findet →"
+      },
+      {
+        "url": "https://geo-gastro.vercel.app",
+        "text": "Kostenloser KI-Reputations-Check für dein Restaurant →"
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #000008;
+  --color-wake: #00FFE0;
+  --color-slipstream: #FFE600;
+  --color-quantum: #BF00FF;
+  --color-asd-pink: #FF006E;
+  --color-text: #FFFFFF;
+  --color-muted: #888888;
+}
+
+html,
+body {
+  background: #000008;
+  overscroll-behavior: none;
+}
+
+body {
+  background-image: radial-gradient(
+    ellipse at 20% 50%,
+    #0a0020 0%,
+    #000008 40%,
+    #000510 70%,
+    #020010 100%
+  );
+  color: var(--color-text);
+  min-height: 100vh;
+}
+
+section {
+  contain: layout style paint;
+}
+
+.gradient-wake {
+  background: linear-gradient(180deg, #00AAFF 0%, #00FF88 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-accent {
+  background: linear-gradient(135deg, #FFB432 0%, #FF3CAC 50%, #FF2D78 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-accent-bg {
+  background: linear-gradient(135deg, #FFB432, #FF3CAC);
+}

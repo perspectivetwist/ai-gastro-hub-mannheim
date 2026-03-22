@@ -1,0 +1,47 @@
+{
+  "slug": "kw-4-2026",
+  "kw": 4,
+  "year": 2026,
+  "date": "26. Januar 2026",
+  "headline": "62 Prozent deiner Konkurrenten fehlen in KI-Empfehlungen",
+  "zahl_der_woche": {
+    "zahl": "62 %",
+    "kontext": "Mehr als die Hälfte lokaler Restaurants erscheint nicht in KI-basierten Empfehlungssystemen. Das bedeutet: Wer nicht optimiert, wird nicht gefunden."
+  },
+  "news": [
+    {
+      "titel": "KI-Empfehlungen: Das neue Sichtbarkeitsproblem",
+      "was_passiert": "Analysen zeigen: Nur ein Bruchteil der Restaurants taucht auf, wenn Nutzer ChatGPT, Claude oder andere KI-Systeme nach Restaurantempfehlungen fragen. Der Wettbewerb um KI-Sichtbarkeit ist deutlich härter als bei Google. Die grossen Player dominieren die Ergebnisse, kleine und mittlere Restaurants fallen durch.",
+      "was_bedeutet_das": "Dein Restaurant muss jetzt zusätzlich zu Google auch für KI-Systeme sichtbar sein. Das funktioniert anders als SEO: KI-Crawler brauchen klare, strukturierte Informationen. Wer hier nicht aktiv wird, verliert Buchungen an Konkurrenten, die es tun."
+    },
+    {
+      "titel": "So wirst du für KI lesbar",
+      "was_passiert": "KI-Systeme verstehen deine Website nur, wenn sie maschinenlesbar ist. Das bedeutet konkret: FAQ-Formate, klare Textblöcke statt Design-Blabla, und Schema.org-Daten (strukturierte Daten). Diese technischen Signale zeigen KI: Du existierst, das sind deine Öffnungszeiten, das ist dein Angebot.",
+      "was_bedeutet_das": "Du brauchst kein Coding-Genie. FAQ hinzufügen (\"Was sind eure Öffnungszeiten?\"), deine Speisekarte in Text-Blöcken strukturieren, und sicherstellen, dass alle Infos nicht nur hübsch aussehen, sondern auch lesbar für Maschinen sind. Das ist Handarbeit für 2-3 Stunden, wirkt aber Monate."
+    },
+    {
+      "titel": "Preiskalkulation auf Autopilot",
+      "was_passiert": "KI-Tools für Restaurants berechnen jetzt automatisch deine Margen. Sie analysieren deinen Wareneinsatz, gleichen ihn mit Marktdaten ab und empfehlen Preisanpassungen. Die ersten Tools starten ab 30 Euro pro Monat. Keine Vorauszahlungen, keine versteckten Kosten.",
+      "was_bedeutet_das": "Statt Preise zu raten, hast du jetzt Daten. Die KI sagt dir: Bei diesem Wareneinsatz und in dieser Region solltest du höher gehen. Das spart Zeit beim Kalkulieren und hilft dir, Margen nicht zu verschenken. Perfekt für Restaurant-Anfänger oder wenn dein Restaurantberater gerade Urlaub hat."
+    }
+  ],
+  "handlungsempfehlung": "Starte mit dieser Woche: Prüfe kostenlos, ob ChatGPT dein Restaurant überhaupt findet. Nutze den AEO-Scanner (Link unten). Wenn dein Restaurant nicht auftaucht, bedeutet das konkret: Deine Website braucht strukturierte Daten. Das ist die Hausaufgabe für nächste Woche.",
+  "seo": {
+    "title": "KI-Sichtbarkeit: 62% der Restaurants fehlen | KW 4",
+    "metaDescription": "KW 4 2026: Warum dein Restaurant nicht in KI-Empfehlungen auftaucht. Optimierung für ChatGPT, Preiskalkulation, Website-Struktur.",
+    "keywords": "KI Empfehlungen Restaurant, AEO Optimierung, ChatGPT Restaurant finden, Website für KI optimieren",
+    "canonicalUrl": "https://ai-gastro-hub.vercel.app/newsroom/kw-4-2026",
+    "datePublished": "2026-01-26T10:00:00.000Z",
+    "internalLinks": [
+      {
+        "url": "https://aeo-gastro.vercel.app",
+        "text": "Prüfe kostenlos: Findet ChatGPT dein Restaurant?"
+      },
+      {
+        "url": "https://aisecurity-gastro.vercel.app",
+        "text": "Kostenloser KI-Sicherheits-Check für dein Restaurant"
+      }
+    ]
+  },
+  "generatedAt": "2026-03-18T19:19:50.202Z"
+}

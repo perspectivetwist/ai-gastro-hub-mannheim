@@ -1,0 +1,43 @@
+{
+  "slug": "kw-7-2026",
+  "kw": 7,
+  "year": 2026,
+  "date": "16. Februar 2026",
+  "headline": "Deine Gäste kommen seltener, aber mit größerem Budget. So verdienst du mehr.",
+  "zahl_der_woche": {
+    "zahl": "34 % Last-Minute-Buchungen",
+    "kontext": "Über ein Drittel deiner Reservierungen kommt jetzt wenige Tage vorher rein. Das bedeutet: Du planst anders, verkaufst anders, verdienst anders."
+  },
+  "news": [
+    {
+      "titel": "Restaurantbesuch wird zur Feier",
+      "was_passiert": "Gäste gehen weniger oft essen gehen, aber investieren mehr pro Besuch. Statt beliebiger Freitag-Abend wird das Restaurant zur Destination für Geburtstage, Jahrestage und besondere Anlässe. Das Casual-Dining stirbt, das Event-Dining boomt.",
+      "was_bedeutet_das": "Dein Marketing muss sich neu ausrichten. Nicht mehr \"komm vorbei, wenn dir danach ist\", sondern \"nutze uns für deine wichtigen Momente\". Schreib gezielt Paare, Familien zu Feiertagen an und signalisiere: Wir haben was Besonderes für euch."
+    },
+    {
+      "titel": "16-17 Uhr wird zum Umsatz-Fenster",
+      "was_passiert": "Last-Minute-Buchungen boomen vor allem für Nachmittags-Slots. Die 16 bis 17 Uhr werden zur neuen Rush-Hour. Flexible Tischvergabe und Early-Bird-Angebote greifen jetzt besser als klassische Happy-Hours.",
+      "was_bedeutet_das": "Aktiviere diese Zeit strategisch: Spezial-Menü, Coupon oder einfach nur \"Tische bis 17 Uhr buchbar\". Viele Last-Minute-Bucher suchen genau diesen Slot. Statt Leergänge am Nachmittag verdienst du Umsatz mit weniger Personal."
+    },
+    {
+      "titel": "KI-Dienstpläne sparen 2-3 Stunden pro Woche",
+      "was_passiert": "Tools wie Planday oder Gastromatic automatisieren Schichtpläne. Alternativ: ChatGPT-Vorlagen für kleine Teams mit 3-10 Mitarbeitern. Eingabe: Verfügbarkeiten, Fähigkeiten, Öffnungszeiten. Output: fertiger Plan. Keine Tabellen-Jonglage mehr.",
+      "was_bedeutet_das": "Wenn du 10-15 Minuten pro Tag in deinen Schichtplan investierst, sparst du mit KI 2-3 Stunden pro Woche ein. Das ist kein Nice-to-Have für große Ketten. Das ist Spielraum für dich: mehr Gästekontakt, bessere Planung, weniger Stress."
+    }
+  ],
+  "handlungsempfehlung": "Schreib diese Woche eine Email-Vorlage für deine Stammgäste: \"Wir haben Freitag 16-17 Uhr spontan Platz für dein Special Date.\" Teste diese Nachricht mit 5-10 Gästen. Miss: Wie viele buchen spontan ein? Das sind deine neuen Umsatz-Chancen.",
+  "seo": {
+    "title": "Last-Minute-Buchungen & Nachmittags-Slots | KI-Gastro KW 7",
+    "metaDescription": "KW 7 2026: Gäste buchen kurzfristig und wollen Feiern statt Casual-Dining. So nutzt du 16-17 Uhr profitabel.",
+    "keywords": "Last-Minute-Buchungen Restaurant, Nachmittags-Slots Gastronomie, Event-Dining Trend, Dienstplanung KI",
+    "canonicalUrl": "https://ai-gastro-hub.vercel.app/newsroom/kw-7-2026",
+    "datePublished": "2026-02-16T10:00:00.000Z",
+    "internalLinks": [
+      {
+        "url": "https://agentready-gastro.vercel.app",
+        "text": "Prüfe ob KI-Agenten bei dir buchen können"
+      }
+    ]
+  },
+  "generatedAt": "2026-03-18T19:20:39.048Z"
+}

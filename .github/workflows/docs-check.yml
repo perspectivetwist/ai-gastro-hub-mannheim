@@ -1,0 +1,40 @@
+name: Documentation Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  check-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check DEVELOPER.md exists
+        run: |
+          if [ ! -f "DEVELOPER.md" ]; then
+            echo "❌ DEVELOPER.md fehlt!"
+            exit 1
+          fi
+          echo "✅ DEVELOPER.md vorhanden ($(wc -l < DEVELOPER.md) Zeilen)"
+
+      - name: Check docs/solutions directory exists
+        run: |
+          if [ ! -d "docs/solutions" ]; then
+            echo "❌ docs/solutions/ fehlt!"
+            exit 1
+          fi
+          echo "✅ docs/solutions/ vorhanden ($(find docs/solutions -name '*.md' | wc -l) Dateien)"
+
+      - name: Check CLAUDE.md exists
+        run: |
+          if [ ! -f "CLAUDE.md" ]; then
+            echo "❌ CLAUDE.md fehlt!"
+            exit 1
+          fi
+          echo "✅ CLAUDE.md vorhanden"
+
+      - name: Summary
+        run: echo "📋 Alle Doku-Checks bestanden"
