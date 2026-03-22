@@ -5,8 +5,8 @@ export default function HeroSection() {
       className="relative flex flex-col items-center justify-center text-center px-6 pt-24 pb-4"
       style={{ zIndex: 1 }}
     >
-      <div className="relative">
-        <CityIcon city="mannheim" />
+      <div className="relative flex flex-col items-center">
+        <div className="flex justify-center mb-6"><CityIcon city="mannheim" /></div>
         {/* Eyebrow */}
         <div
           className="mb-14 text-sm tracking-widest uppercase"

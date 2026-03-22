@@ -2,249 +2,288 @@ interface CityIconProps {
   city: string;
 }
 
+const GRAD = (
+  <defs>
+    <linearGradient id="city-grad" x1="0" y1="0" x2="160" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#FFB432" />
+      <stop offset="50%" stopColor="#FF3CAC" />
+      <stop offset="100%" stopColor="#FF2D78" />
+    </linearGradient>
+  </defs>
+);
+
+function Svg({ children }: { children: React.ReactNode }) {
+  return (
+    <svg viewBox="0 0 160 80" width={160} height={80} fill="none" xmlns="http://www.w3.org/2000/svg">
+      {GRAD}
+      {children}
+    </svg>
+  );
+}
+
+const F = "url(#city-grad)";
+
 function BerlinIcon() {
   return (
-    <svg viewBox="0 0 80 64" height={64} fill="none" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <linearGradient id="city-grad" x1="0" y1="0" x2="80" y2="64" gradientUnits="userSpaceOnUse">
-          <stop offset="0%" stopColor="#FFB432" />
-          <stop offset="50%" stopColor="#FF3CAC" />
-          <stop offset="100%" stopColor="#FF2D78" />
-        </linearGradient>
-      </defs>
-      {/* Brandenburger Tor */}
-      <rect x="10" y="18" width="4" height="40" fill="url(#city-grad)" />
-      <rect x="20" y="18" width="4" height="40" fill="url(#city-grad)" />
-      <rect x="30" y="18" width="4" height="40" fill="url(#city-grad)" />
-      <rect x="46" y="18" width="4" height="40" fill="url(#city-grad)" />
-      <rect x="56" y="18" width="4" height="40" fill="url(#city-grad)" />
-      <rect x="66" y="18" width="4" height="40" fill="url(#city-grad)" />
-      <rect x="8" y="14" width="64" height="6" rx="1" fill="url(#city-grad)" />
-      <rect x="8" y="56" width="64" height="4" rx="1" fill="url(#city-grad)" />
-      {/* Quadriga */}
-      <rect x="32" y="6" width="16" height="10" rx="2" fill="url(#city-grad)" />
-      <polygon points="40,0 36,6 44,6" fill="url(#city-grad)" />
-    </svg>
+    <Svg>
+      {/* Brandenburger Tor — 6 Säulen, Architrav, Quadriga */}
+      <rect x="30" y="68" width="100" height="4" rx="1" fill={F} />
+      {[38, 52, 66, 80, 94, 108].map((x) => (
+        <g key={x}>
+          <rect x={x} y="28" width="5" height="40" fill={F} />
+          <rect x={x - 1} y="26" width="7" height="3" rx="1" fill={F} />
+          <rect x={x - 1} y="66" width="7" height="3" rx="1" fill={F} />
+        </g>
+      ))}
+      <rect x="32" y="22" width="96" height="6" rx="1" fill={F} />
+      <polygon points="48,22 80,10 112,22" fill={F} />
+      <rect x="70" y="4" width="20" height="7" rx="2" fill={F} />
+      <polygon points="80,0 76,5 84,5" fill={F} />
+      <rect x="66" y="5" width="4" height="5" rx="1" fill={F} />
+      <rect x="90" y="5" width="4" height="5" rx="1" fill={F} />
+    </Svg>
   );
 }
 
 function HamburgIcon() {
   return (
-    <svg viewBox="0 0 80 64" height={64} fill="none" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <linearGradient id="city-grad" x1="0" y1="0" x2="80" y2="64" gradientUnits="userSpaceOnUse">
-          <stop offset="0%" stopColor="#FFB432" />
-          <stop offset="50%" stopColor="#FF3CAC" />
-          <stop offset="100%" stopColor="#FF2D78" />
-        </linearGradient>
-      </defs>
-      {/* Elbphilharmonie */}
-      <rect x="5" y="34" width="70" height="26" rx="2" fill="url(#city-grad)" />
-      <path d="M5 34 Q12 20 20 28 Q28 16 40 24 Q52 14 60 26 Q68 18 75 34" stroke="url(#city-grad)" strokeWidth="3" fill="url(#city-grad)" />
-      <rect x="10" y="40" width="4" height="6" rx="1" fill="#000008" />
-      <rect x="20" y="40" width="4" height="6" rx="1" fill="#000008" />
-      <rect x="30" y="40" width="4" height="6" rx="1" fill="#000008" />
-      <rect x="46" y="40" width="4" height="6" rx="1" fill="#000008" />
-      <rect x="56" y="40" width="4" height="6" rx="1" fill="#000008" />
-      <rect x="66" y="40" width="4" height="6" rx="1" fill="#000008" />
-    </svg>
+    <Svg>
+      {/* Elbphilharmonie — Backsteinsockel + Glaswelle */}
+      <rect x="20" y="46" width="120" height="28" rx="2" fill={F} />
+      {[54, 62, 70].map((y) => (
+        <g key={y}>
+          {[28, 40, 52, 64, 76, 88, 100, 112, 124].map((x) => (
+            <rect key={x} x={x} y={y} width="5" height="3" rx="0.5" fill="#000008" />
+          ))}
+        </g>
+      ))}
+      <path d="M20 46 Q32 24 48 34 Q58 20 72 30 Q80 14 92 26 Q102 16 114 28 Q126 20 140 46" fill={F} />
+      <path d="M30 42 Q50 26 80 22 Q110 26 130 42" stroke="#000008" strokeWidth="1" fill="none" opacity="0.4" />
+      <path d="M36 38 Q55 24 80 20 Q105 24 124 38" stroke="#000008" strokeWidth="1" fill="none" opacity="0.3" />
+      <path d="M76 16 L80 8 L84 16" fill={F} />
+    </Svg>
   );
 }
 
 function MuenchenIcon() {
   return (
-    <svg viewBox="0 0 80 64" height={64} fill="none" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <linearGradient id="city-grad" x1="0" y1="0" x2="80" y2="64" gradientUnits="userSpaceOnUse">
-          <stop offset="0%" stopColor="#FFB432" />
-          <stop offset="50%" stopColor="#FF3CAC" />
-          <stop offset="100%" stopColor="#FF2D78" />
-        </linearGradient>
-      </defs>
-      {/* Frauenkirche Zwillingstürme */}
-      <rect x="18" y="14" width="16" height="46" rx="1" fill="url(#city-grad)" />
-      <rect x="46" y="14" width="16" height="46" rx="1" fill="url(#city-grad)" />
-      {/* Kuppeln */}
-      <ellipse cx="26" cy="14" rx="9" ry="8" fill="url(#city-grad)" />
-      <ellipse cx="54" cy="14" rx="9" ry="8" fill="url(#city-grad)" />
-      <circle cx="26" cy="6" r="2" fill="url(#city-grad)" />
-      <circle cx="54" cy="6" r="2" fill="url(#city-grad)" />
-      {/* Verbindung */}
-      <rect x="34" y="36" width="12" height="24" rx="1" fill="url(#city-grad)" />
-    </svg>
+    <Svg>
+      {/* Frauenkirche — Zwei Türme mit Zwiebelhauben */}
+      <rect x="50" y="40" width="60" height="34" rx="1" fill={F} />
+      {[58, 70, 82, 94].map((x) => (
+        <g key={x}>
+          <rect x={x} y="48" width="5" height="10" rx="1" fill="#000008" />
+          <path d={`M${x} 48 Q${x + 2.5} 44 ${x + 5} 48`} fill="#000008" />
+        </g>
+      ))}
+      <rect x="38" y="16" width="20" height="58" rx="1" fill={F} />
+      <rect x="42" y="30" width="4" height="8" rx="1" fill="#000008" />
+      <rect x="50" y="30" width="4" height="8" rx="1" fill="#000008" />
+      <rect x="42" y="44" width="4" height="8" rx="1" fill="#000008" />
+      <rect x="50" y="44" width="4" height="8" rx="1" fill="#000008" />
+      <ellipse cx="48" cy="16" rx="12" ry="9" fill={F} />
+      <ellipse cx="48" cy="10" rx="6" ry="5" fill={F} />
+      <circle cx="48" cy="4" r="2.5" fill={F} />
+      <rect x="102" y="16" width="20" height="58" rx="1" fill={F} />
+      <rect x="106" y="30" width="4" height="8" rx="1" fill="#000008" />
+      <rect x="114" y="30" width="4" height="8" rx="1" fill="#000008" />
+      <rect x="106" y="44" width="4" height="8" rx="1" fill="#000008" />
+      <rect x="114" y="44" width="4" height="8" rx="1" fill="#000008" />
+      <ellipse cx="112" cy="16" rx="12" ry="9" fill={F} />
+      <ellipse cx="112" cy="10" rx="6" ry="5" fill={F} />
+      <circle cx="112" cy="4" r="2.5" fill={F} />
+      <rect x="34" y="72" width="92" height="4" rx="1" fill={F} />
+    </Svg>
   );
 }
 
 function KoelnIcon() {
   return (
-    <svg viewBox="0 0 80 64" height={64} fill="none" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <linearGradient id="city-grad" x1="0" y1="0" x2="80" y2="64" gradientUnits="userSpaceOnUse">
-          <stop offset="0%" stopColor="#FFB432" />
-          <stop offset="50%" stopColor="#FF3CAC" />
-          <stop offset="100%" stopColor="#FF2D78" />
-        </linearGradient>
-      </defs>
-      {/* Kölner Dom Doppeltürme */}
-      <polygon points="24,2 18,50 30,50" fill="url(#city-grad)" />
-      <polygon points="56,2 50,50 62,50" fill="url(#city-grad)" />
-      {/* Mittelschiff */}
-      <rect x="28" y="30" width="24" height="30" rx="1" fill="url(#city-grad)" />
-      <path d="M28 30 Q40 18 52 30" fill="url(#city-grad)" />
-      {/* Basis */}
-      <rect x="14" y="56" width="52" height="4" rx="1" fill="url(#city-grad)" />
-      {/* Kreuz-Spitzen */}
-      <line x1="24" y1="0" x2="24" y2="6" stroke="url(#city-grad)" strokeWidth="2" />
-      <line x1="56" y1="0" x2="56" y2="6" stroke="url(#city-grad)" strokeWidth="2" />
-    </svg>
+    <Svg>
+      {/* Kölner Dom — Zwei gotische Spitztürme */}
+      <polygon points="50,2 36,62 64,62" fill={F} />
+      <polygon points="50,2 46,14 54,14" fill={F} />
+      <polygon points="40,30 38,42 42,42" fill={F} />
+      <polygon points="60,30 58,42 62,42" fill={F} />
+      <rect x="46" y="36" width="8" height="14" rx="1" fill="#000008" />
+      <path d="M46 36 Q50 30 54 36" fill="#000008" />
+      <rect x="46" y="54" width="8" height="6" rx="1" fill="#000008" />
+      <polygon points="110,2 96,62 124,62" fill={F} />
+      <polygon points="110,2 106,14 114,14" fill={F} />
+      <polygon points="100,30 98,42 102,42" fill={F} />
+      <polygon points="120,30 118,42 122,42" fill={F} />
+      <rect x="106" y="36" width="8" height="14" rx="1" fill="#000008" />
+      <path d="M106 36 Q110 30 114 36" fill="#000008" />
+      <rect x="106" y="54" width="8" height="6" rx="1" fill="#000008" />
+      <rect x="60" y="36" width="40" height="38" rx="1" fill={F} />
+      <path d="M60 36 Q80 22 100 36" fill={F} />
+      <circle cx="80" cy="40" r="6" fill="#000008" />
+      <circle cx="80" cy="40" r="4" stroke={F} strokeWidth="1" fill="#000008" />
+      <rect x="72" y="56" width="16" height="18" rx="1" fill="#000008" />
+      <path d="M72 56 Q80 48 88 56" fill="#000008" />
+      <line x1="50" y1="0" x2="50" y2="4" stroke={F} strokeWidth="2" />
+      <line x1="110" y1="0" x2="110" y2="4" stroke={F} strokeWidth="2" />
+      <line x1="47" y1="3" x2="53" y2="3" stroke={F} strokeWidth="1.5" />
+      <line x1="107" y1="3" x2="113" y2="3" stroke={F} strokeWidth="1.5" />
+      <rect x="32" y="72" width="96" height="4" rx="1" fill={F} />
+    </Svg>
   );
 }
 
 function FrankfurtIcon() {
   return (
-    <svg viewBox="0 0 80 64" height={64} fill="none" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <linearGradient id="city-grad" x1="0" y1="0" x2="80" y2="64" gradientUnits="userSpaceOnUse">
-          <stop offset="0%" stopColor="#FFB432" />
-          <stop offset="50%" stopColor="#FF3CAC" />
-          <stop offset="100%" stopColor="#FF2D78" />
-        </linearGradient>
-      </defs>
+    <Svg>
       {/* Mainhattan Skyline */}
-      <rect x="4" y="28" width="8" height="32" rx="1" fill="url(#city-grad)" />
-      <rect x="14" y="16" width="8" height="44" rx="1" fill="url(#city-grad)" />
-      <rect x="24" y="8" width="10" height="52" rx="1" fill="url(#city-grad)" />
-      <rect x="36" y="4" width="8" height="56" rx="1" fill="url(#city-grad)" />
-      <rect x="46" y="12" width="10" height="48" rx="1" fill="url(#city-grad)" />
-      <rect x="58" y="20" width="8" height="40" rx="1" fill="url(#city-grad)" />
-      <rect x="68" y="32" width="8" height="28" rx="1" fill="url(#city-grad)" />
-      <rect x="2" y="58" width="76" height="3" rx="1" fill="url(#city-grad)" />
-    </svg>
+      <rect x="62" y="6" width="14" height="66" rx="1" fill={F} />
+      <polygon points="62,6 69,0 76,6" fill={F} />
+      {[16, 26, 36, 46, 56].map((y) => (
+        <rect key={y} x="65" y={y} width="8" height="4" rx="0.5" fill="#000008" />
+      ))}
+      <rect x="38" y="16" width="12" height="56" rx="1" fill={F} />
+      <polygon points="38,16 44,8 50,16" fill={F} />
+      {[24, 34, 44, 54].map((y) => (
+        <rect key={y} x="40" y={y} width="8" height="4" rx="0.5" fill="#000008" />
+      ))}
+      <rect x="82" y="20" width="12" height="52" rx="1" fill={F} />
+      <rect x="82" y="18" width="12" height="4" rx="2" fill={F} />
+      {[28, 38, 48, 58].map((y) => (
+        <rect key={y} x="84" y={y} width="8" height="4" rx="0.5" fill="#000008" />
+      ))}
+      <rect x="22" y="32" width="10" height="40" rx="1" fill={F} />
+      {[40, 50, 58].map((y) => (
+        <rect key={y} x="24" y={y} width="6" height="3" rx="0.5" fill="#000008" />
+      ))}
+      <rect x="100" y="28" width="12" height="44" rx="1" fill={F} />
+      {[36, 46, 56].map((y) => (
+        <rect key={y} x="102" y={y} width="8" height="4" rx="0.5" fill="#000008" />
+      ))}
+      <rect x="118" y="38" width="10" height="34" rx="1" fill={F} />
+      {[46, 56].map((y) => (
+        <rect key={y} x="120" y={y} width="6" height="3" rx="0.5" fill="#000008" />
+      ))}
+      <rect x="10" y="44" width="8" height="28" rx="1" fill={F} />
+      <rect x="134" y="42" width="8" height="30" rx="1" fill={F} />
+      <rect x="6" y="72" width="148" height="3" rx="1" fill={F} />
+    </Svg>
   );
 }
 
 function StuttgartIcon() {
   return (
-    <svg viewBox="0 0 80 64" height={64} fill="none" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <linearGradient id="city-grad" x1="0" y1="0" x2="80" y2="64" gradientUnits="userSpaceOnUse">
-          <stop offset="0%" stopColor="#FFB432" />
-          <stop offset="50%" stopColor="#FF3CAC" />
-          <stop offset="100%" stopColor="#FF2D78" />
-        </linearGradient>
-      </defs>
+    <Svg>
       {/* Fernsehturm Stuttgart */}
-      <rect x="38" y="6" width="4" height="48" rx="1" fill="url(#city-grad)" />
-      {/* Kanzel */}
-      <ellipse cx="40" cy="16" rx="10" ry="4" fill="url(#city-grad)" />
-      <rect x="32" y="14" width="16" height="8" rx="2" fill="url(#city-grad)" />
-      {/* Korb oben */}
-      <rect x="36" y="4" width="8" height="4" rx="2" fill="url(#city-grad)" />
-      <line x1="40" y1="0" x2="40" y2="4" stroke="url(#city-grad)" strokeWidth="2" />
-      {/* Fuß */}
-      <polygon points="30,60 40,46 50,60" fill="url(#city-grad)" />
-      <rect x="26" y="58" width="28" height="4" rx="1" fill="url(#city-grad)" />
-    </svg>
+      <line x1="80" y1="0" x2="80" y2="10" stroke={F} strokeWidth="2" />
+      <rect x="77" y="10" width="6" height="18" rx="1" fill={F} />
+      <ellipse cx="80" cy="30" rx="16" ry="6" fill={F} />
+      <rect x="66" y="28" width="28" height="10" rx="3" fill={F} />
+      <ellipse cx="80" cy="38" rx="14" ry="4" fill={F} />
+      {[68, 74, 80, 86].map((x) => (
+        <rect key={x} x={x} y="31" width="4" height="4" rx="0.5" fill="#000008" />
+      ))}
+      <rect x="77" y="38" width="6" height="22" rx="1" fill={F} />
+      <polygon points="66,72 80,56 94,72" fill={F} />
+      <rect x="60" y="70" width="40" height="5" rx="1" fill={F} />
+      <rect x="56" y="74" width="48" height="3" rx="1" fill={F} />
+    </Svg>
   );
 }
 
 function DuesseldorfIcon() {
   return (
-    <svg viewBox="0 0 80 64" height={64} fill="none" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <linearGradient id="city-grad" x1="0" y1="0" x2="80" y2="64" gradientUnits="userSpaceOnUse">
-          <stop offset="0%" stopColor="#FFB432" />
-          <stop offset="50%" stopColor="#FF3CAC" />
-          <stop offset="100%" stopColor="#FF2D78" />
-        </linearGradient>
-      </defs>
-      {/* Rheinturm */}
-      <rect x="37" y="4" width="6" height="52" rx="1" fill="url(#city-grad)" />
-      {/* Kanzel/Korb */}
-      <ellipse cx="40" cy="20" rx="12" ry="5" fill="url(#city-grad)" />
-      <rect x="30" y="18" width="20" height="10" rx="3" fill="url(#city-grad)" />
-      {/* Antenne */}
-      <line x1="40" y1="0" x2="40" y2="6" stroke="url(#city-grad)" strokeWidth="2" />
-      {/* Fuß */}
-      <polygon points="32,60 40,50 48,60" fill="url(#city-grad)" />
-      <rect x="28" y="58" width="24" height="4" rx="1" fill="url(#city-grad)" />
-    </svg>
+    <Svg>
+      {/* Rheinturm Düsseldorf */}
+      <line x1="80" y1="0" x2="80" y2="8" stroke={F} strokeWidth="2" />
+      <rect x="76" y="8" width="8" height="14" rx="1" fill={F} />
+      <ellipse cx="80" cy="24" rx="18" ry="7" fill={F} />
+      <rect x="64" y="22" width="32" height="12" rx="4" fill={F} />
+      <ellipse cx="80" cy="34" rx="16" ry="5" fill={F} />
+      {[66, 73, 80, 87].map((x) => (
+        <rect key={x} x={x} y="26" width="5" height="4" rx="0.5" fill="#000008" />
+      ))}
+      <ellipse cx="80" cy="42" rx="12" ry="4" fill={F} />
+      <rect x="70" y="40" width="20" height="6" rx="2" fill={F} />
+      {[72, 78, 84].map((x) => (
+        <rect key={x} x={x} y="41" width="4" height="3" rx="0.5" fill="#000008" />
+      ))}
+      <rect x="76" y="46" width="8" height="18" rx="1" fill={F} />
+      <polygon points="68,72 80,60 92,72" fill={F} />
+      <rect x="62" y="70" width="36" height="4" rx="1" fill={F} />
+      <rect x="58" y="74" width="44" height="3" rx="1" fill={F} />
+    </Svg>
   );
 }
 
 function LeipzigIcon() {
   return (
-    <svg viewBox="0 0 80 64" height={64} fill="none" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <linearGradient id="city-grad" x1="0" y1="0" x2="80" y2="64" gradientUnits="userSpaceOnUse">
-          <stop offset="0%" stopColor="#FFB432" />
-          <stop offset="50%" stopColor="#FF3CAC" />
-          <stop offset="100%" stopColor="#FF2D78" />
-        </linearGradient>
-      </defs>
-      {/* Völkerschlachtdenkmal */}
-      <polygon points="16,60 40,10 64,60" fill="url(#city-grad)" />
-      {/* Stufen/Terrassen */}
-      <rect x="24" y="36" width="32" height="3" rx="1" fill="#000008" />
-      <rect x="28" y="28" width="24" height="3" rx="1" fill="#000008" />
-      {/* Kuppel */}
-      <ellipse cx="40" cy="12" rx="8" ry="6" fill="url(#city-grad)" />
-      <rect x="38" y="4" width="4" height="4" rx="1" fill="url(#city-grad)" />
-      {/* Basis */}
-      <rect x="12" y="58" width="56" height="4" rx="1" fill="url(#city-grad)" />
-    </svg>
+    <Svg>
+      {/* Völkerschlachtdenkmal — Massiver Stufenbau */}
+      <polygon points="40,72 56,20 104,20 120,72" fill={F} />
+      <rect x="50" y="36" width="60" height="3" rx="0.5" fill="#000008" opacity="0.5" />
+      <rect x="46" y="48" width="68" height="3" rx="0.5" fill="#000008" opacity="0.5" />
+      <rect x="42" y="60" width="76" height="3" rx="0.5" fill="#000008" opacity="0.5" />
+      <rect x="60" y="16" width="40" height="6" rx="1" fill={F} />
+      <ellipse cx="80" cy="16" rx="22" ry="8" fill={F} />
+      <rect x="68" y="6" width="24" height="12" rx="2" fill={F} />
+      <rect x="76" y="2" width="8" height="6" rx="1" fill={F} />
+      <circle cx="80" cy="2" r="2" fill={F} />
+      {[54, 62, 70, 86, 94, 102].map((x) => (
+        <rect key={x} x={x} y="24" width="3" height="10" rx="0.5" fill="#000008" opacity="0.3" />
+      ))}
+      <rect x="36" y="72" width="88" height="4" rx="1" fill={F} />
+    </Svg>
   );
 }
 
 function DortmundIcon() {
   return (
-    <svg viewBox="0 0 80 64" height={64} fill="none" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <linearGradient id="city-grad" x1="0" y1="0" x2="80" y2="64" gradientUnits="userSpaceOnUse">
-          <stop offset="0%" stopColor="#FFB432" />
-          <stop offset="50%" stopColor="#FF3CAC" />
-          <stop offset="100%" stopColor="#FF2D78" />
-        </linearGradient>
-      </defs>
-      {/* Westfalenstadion / Signal Iduna Park */}
-      <path d="M6 40 L6 58 L74 58 L74 40" stroke="url(#city-grad)" strokeWidth="3" fill="none" />
-      {/* Tribünen */}
-      <path d="M6 40 Q20 28 40 32 Q60 28 74 40" stroke="url(#city-grad)" strokeWidth="3" fill="url(#city-grad)" fillOpacity="0.3" />
-      {/* Pylon links */}
-      <rect x="8" y="14" width="4" height="28" rx="1" fill="url(#city-grad)" />
-      <polygon points="10,10 6,18 14,18" fill="url(#city-grad)" />
-      {/* Pylon rechts */}
-      <rect x="68" y="14" width="4" height="28" rx="1" fill="url(#city-grad)" />
-      <polygon points="70,10 66,18 74,18" fill="url(#city-grad)" />
-      {/* Spielfeld */}
-      <rect x="20" y="50" width="40" height="6" rx="1" fill="url(#city-grad)" fillOpacity="0.2" />
-      <line x1="40" y1="50" x2="40" y2="56" stroke="url(#city-grad)" strokeWidth="1" />
-    </svg>
+    <Svg>
+      {/* Signal Iduna Park / Westfalenstadion */}
+      <path d="M16 56 L16 72 L144 72 L144 56" stroke={F} strokeWidth="3" fill="none" />
+      <path d="M16 56 Q40 36 80 40 Q120 36 144 56" fill={F} />
+      <path d="M28 54 Q50 42 80 44 Q110 42 132 54" stroke="#000008" strokeWidth="1.5" fill="none" opacity="0.4" />
+      <rect x="18" y="16" width="5" height="42" rx="1" fill={F} />
+      <rect x="14" y="12" width="13" height="6" rx="1" fill={F} />
+      <polygon points="20.5,8 16,12 25,12" fill={F} />
+      <rect x="137" y="16" width="5" height="42" rx="1" fill={F} />
+      <rect x="133" y="12" width="13" height="6" rx="1" fill={F} />
+      <polygon points="139.5,8 135,12 144,12" fill={F} />
+      <rect x="40" y="60" width="80" height="10" rx="1" fill={F} fillOpacity="0.15" />
+      <line x1="80" y1="60" x2="80" y2="70" stroke={F} strokeWidth="0.5" opacity="0.3" />
+      <circle cx="80" cy="65" r="4" stroke={F} strokeWidth="0.5" fill="none" opacity="0.3" />
+      <line x1="20" y1="14" x2="44" y2="38" stroke={F} strokeWidth="1" opacity="0.5" />
+      <line x1="140" y1="14" x2="116" y2="38" stroke={F} strokeWidth="1" opacity="0.5" />
+      <rect x="12" y="72" width="136" height="4" rx="1" fill={F} />
+    </Svg>
   );
 }
 
 function MannheimIcon() {
   return (
-    <svg viewBox="0 0 80 64" height={64} fill="none" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <linearGradient id="city-grad" x1="0" y1="0" x2="80" y2="64" gradientUnits="userSpaceOnUse">
-          <stop offset="0%" stopColor="#FFB432" />
-          <stop offset="50%" stopColor="#FF3CAC" />
-          <stop offset="100%" stopColor="#FF2D78" />
-        </linearGradient>
-      </defs>
+    <Svg>
       {/* Wasserturm Mannheim */}
-      <rect x="34" y="20" width="12" height="36" rx="2" fill="url(#city-grad)" />
-      {/* Kuppel */}
-      <ellipse cx="40" cy="20" rx="10" ry="8" fill="url(#city-grad)" />
-      <circle cx="40" cy="12" r="3" fill="url(#city-grad)" />
-      <line x1="40" y1="6" x2="40" y2="9" stroke="url(#city-grad)" strokeWidth="2" />
-      {/* Arkaden links & rechts */}
-      <path d="M14 58 Q14 44 26 44 L34 44 L34 58" stroke="url(#city-grad)" strokeWidth="2" fill="none" />
-      <path d="M66 58 Q66 44 54 44 L46 44 L46 58" stroke="url(#city-grad)" strokeWidth="2" fill="none" />
-      {/* Basis */}
-      <rect x="10" y="56" width="60" height="4" rx="1" fill="url(#city-grad)" />
-    </svg>
+      <rect x="66" y="28" width="28" height="40" rx="3" fill={F} />
+      {[36, 48, 58].map((y) => (
+        <g key={y}>
+          <rect x="72" y={y} width="6" height="6" rx="1" fill="#000008" />
+          <rect x="82" y={y} width="6" height="6" rx="1" fill="#000008" />
+        </g>
+      ))}
+      <ellipse cx="80" cy="28" rx="16" ry="12" fill={F} />
+      <rect x="74" y="14" width="12" height="6" rx="2" fill={F} />
+      <ellipse cx="80" cy="14" rx="7" ry="4" fill={F} />
+      <rect x="78" y="6" width="4" height="5" rx="1" fill={F} />
+      <circle cx="80" cy="4" r="2" fill={F} />
+      <line x1="80" y1="0" x2="80" y2="3" stroke={F} strokeWidth="1.5" />
+      <path d="M22 72 L22 54 Q22 46 34 46 L66 46 L66 72" fill="none" stroke={F} strokeWidth="2.5" />
+      {[30, 40, 50].map((x) => (
+        <path key={x} d={`M${x} 72 L${x} 56 Q${x} 50 ${x + 5} 50 Q${x + 10} 50 ${x + 10} 56 L${x + 10} 72`} fill="none" stroke={F} strokeWidth="1.5" />
+      ))}
+      <path d="M94 46 L126 46 Q138 46 138 54 L138 72" fill="none" stroke={F} strokeWidth="2.5" />
+      {[100, 110, 120].map((x) => (
+        <path key={x} d={`M${x} 72 L${x} 56 Q${x} 50 ${x + 5} 50 Q${x + 10} 50 ${x + 10} 56 L${x + 10} 72`} fill="none" stroke={F} strokeWidth="1.5" />
+      ))}
+      <rect x="18" y="72" width="124" height="4" rx="1" fill={F} />
+    </Svg>
   );
 }
 
