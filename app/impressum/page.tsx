@@ -20,7 +20,7 @@ export default function Impressum() {
         <div>
           <h2 className="font-bold mb-2 text-white">Angaben gemäß § 5 TMG</h2>
           <p>
-            Pachyon UG
+            AI-SHIFT-DRIFT
             <br />
             Berliner Straße 124
             <br />
@@ -30,7 +30,7 @@ export default function Impressum() {
 
         <div>
           <h2 className="font-bold mb-2 text-white">Kontakt</h2>
-          <p>E-Mail: maxgeissinger@gmail.com</p>
+          <p>E-Mail: asd.gastronomie@gmail.com</p>
         </div>
 
         <div>
@@ -38,7 +38,7 @@ export default function Impressum() {
             Inhaltlich Verantwortlicher gem. § 55 Abs. 2 RStV
           </h2>
           <p>
-            Pachyon UG
+            AI-SHIFT-DRIFT
             <br />
             Berliner Straße 124
             <br />
