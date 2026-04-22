@@ -1,5 +1,7 @@
 import HeroSection from "@/components/HeroSection";
 import ProblemSection from "@/components/ProblemSection";
+import CityStudySection from "@/components/CityStudySection";
+import cityData from "@/data/city-study.json";
 import MoreProblemsSection from "@/components/MoreProblemsSection";
 import SolutionSection from "@/components/SolutionSection";
 import ProductsSection from "@/components/ProductsSection";
@@ -17,6 +19,7 @@ export default function Home() {
         </p>
       </section>
       <ProblemSection />
+      <CityStudySection data={cityData} />
       <MoreProblemsSection />
       <SolutionSection />
       <ProductsSection />
