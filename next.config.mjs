@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '/staedte/mannheim',
-  assetPrefix: '/staedte/mannheim',
+  assetPrefix: 'https://ai-gastro-hub-mannheim.vercel.app',
 };
 
 export default nextConfig;
