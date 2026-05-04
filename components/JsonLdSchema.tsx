@@ -3,7 +3,7 @@ export default function JsonLdSchema() {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "AI Shift Drift",
-    "url": "https://ai-gastro-hub.vercel.app",
+    "url": "https://www.ki-gastronomie.com",
     "sameAs": ["https://github.com/perspectivetwist"]
   }
 
@@ -11,7 +11,7 @@ export default function JsonLdSchema() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "AI Gastro Hub",
-    "url": "https://ai-gastro-hub.vercel.app",
+    "url": "https://www.ki-gastronomie.com",
     "description": "4 kostenlose KI-Scanner für Restaurants"
   }
 

@@ -22,12 +22,12 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     description: seo.metaDescription || `KW ${data.kw} ${data.year}: ${data.headline}`,
     keywords: seo.keywords || 'KI Gastronomie, KI Restaurant Deutschland, ChatGPT Restaurant',
     alternates: {
-      canonical: seo.canonicalUrl || `https://ai-gastro-hub.vercel.app/newsroom/${params.slug}`,
+      canonical: seo.canonicalUrl || `https://www.ki-gastronomie.com/newsroom/${params.slug}`,
     },
     openGraph: {
       title: seo.title || data.headline,
       description: seo.metaDescription || data.headline,
-      url: seo.canonicalUrl || `https://ai-gastro-hub.vercel.app/newsroom/${params.slug}`,
+      url: seo.canonicalUrl || `https://www.ki-gastronomie.com/newsroom/${params.slug}`,
       siteName: 'KI-Gastro-Newsroom | AI Shift Drift',
       locale: 'de_DE',
       type: 'article',
@@ -66,18 +66,18 @@ export default function NewsroomArticle({ params }: { params: { slug: string } }
             "author": {
               "@type": "Organization",
               "name": "AI Shift Drift",
-              "url": "https://ai-gastro-hub.vercel.app"
+              "url": "https://www.ki-gastronomie.com"
             },
             "publisher": {
               "@type": "Organization",
               "name": "AI Shift Drift | KI-Gastro-Newsroom",
-              "url": "https://ai-gastro-hub.vercel.app/newsroom"
+              "url": "https://www.ki-gastronomie.com/newsroom"
             },
             "description": data.seo?.metaDescription || data.headline,
             "keywords": data.seo?.keywords || "KI Gastronomie, KI Restaurant Deutschland",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": data.seo?.canonicalUrl || `https://ai-gastro-hub.vercel.app/newsroom/${params.slug}`
+              "@id": data.seo?.canonicalUrl || `https://www.ki-gastronomie.com/newsroom/${params.slug}`
             }
           })
         }}
